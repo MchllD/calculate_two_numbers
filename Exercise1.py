@@ -36,6 +36,11 @@ number2_1 = 30
 output_1 = calculate_product_or_sum(number1_1, number2_1)
 print(output_1)
 
+# condition 2
+number1_2 = 40
+number2_2 = 30
+output_2 = calculate_product_or_sum(number1_2, number2_2)
+print(output_2)
 
 
     
