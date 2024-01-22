@@ -16,8 +16,19 @@
 # calculate product of two number
 def calculate_product_or_sum(number1, number2):
     product = number1 * number2
-    
+
+# if product <= 1000:
+# Output if product is less than or equal to 1000  
     if product <= 1000:
         result = product
         output_message = f"The result is {result}"
+# else:
+# # Output if product is greater than 1000
+    else:
+        result = number1 + number2
+        output_message = f"The result is {result}"
+# Calculate the sum       
+    return output_message
+
+
     
