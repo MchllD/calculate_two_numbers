@@ -30,5 +30,12 @@ def calculate_product_or_sum(number1, number2):
 # Calculate the sum       
     return output_message
 
+# condition 1
+number1_1 = 20
+number2_1 = 30
+output_1 = calculate_product_or_sum(number1_1, number2_1)
+print(output_1)
+
+
 
     
